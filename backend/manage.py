@@ -1,0 +1,1 @@
+# Manage script placeholder

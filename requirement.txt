@@ -1,0 +1,34 @@
+# Web Framework
+fastapi       # Use Flask==2.3.2 if Flask is preferred
+
+# ASGI server (for FastAPI)
+uvicorn[standard]
+
+# Database & ORM
+SQLAlchemy
+asyncpg            # PostgreSQL async driver (for FastAPI)
+psycopg2-binary    # PostgreSQL driver (sync, for Flask or SQLAlchemy)
+python-dotenv      # Load environment variables from .env file
+
+# Data Validation
+pydantic
+
+# Authentication
+python-jose      # JWT creation and verification
+passlib[bcrypt]   # Password hashing
+
+# Migrations
+alembic          # Database migration tool
+
+# API Documentation
+fastapi-utils   # Helpers for FastAPI (optional)
+
+# Testing
+pytest
+httpx          # For API testing
+
+# Optional (Flask version only)
+flask
+flask_sqlalchemy
+flask_migrate
+flask_jwt_extended
