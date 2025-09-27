@@ -1,6 +1,4 @@
-Improved Prompt:
-
-Develop a Banking Application using FastAPI or Flask. The application should include:
+Developed a Banking Application using FastAPI or Flask. The application should include:
 
 1. Backend:
 Implement a RESTful API architecture with separate endpoints for each functionality.
